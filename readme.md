@@ -1,59 +1,71 @@
-### һ�����
+﻿### 一、简介
 
-SuperMap JavaScript Bev�ǻ���SuperMap JavaScript��Ʒ�������ڰ����û����ٿ����������Լ���Ҫ�ĵ�ͼ��ܡ�ͨ��SuperMap JavaScript Bev���û�����ͨ�����ӻ��򵼵ķ�ʽ��֧�ֶ��ֵ�ͼ����ķ������ܹ��Զ����ɾ�̬��ͼҳ�棬����������Ȼ������ܡ����Դ�󽵵��û��������ѶȺ�ʱ��ɱ���
+SuperMap JavaScript Bev是基于SuperMap iClient for JavaScript产品的一个web地图框架，致力于帮助用户快速开发出满足自己需要的地图应用。通过SuperMap JavaScript Bev，用户以可视化向导的方式，生成支持多种地图服务的地图应用，该应用由一些静态页面构成，具有量算等基本功能。大大降低了用户的开发难度和时间成本。
 
-![original_CbDk_163500019a01118f](http://fmn.rrfmn.com/fmn059/20130107/0950/original_CbDk_163500019a01118f.jpg)
+![original_CbDk_163500019a01118f](http://fmn.xnpic.com/fmn057/20130312/1000/large_aLYy_46e80000101d125c.jpg)
 
-### ������Ʒ��λ
 
-1.ΪSuperMapiServer Java ����������ٴJavaScript����
+### 二、产品定位
 
-2.Ϊ��С��Ŀ�ṩ�����ĵ�ͼ��ܣ�������Ŀ�����ѶȺ�ʱ��ɱ�
+1.快速搭建地图应用。
 
-### ������Ʒ�ص�
+2.为中小项目提供基本的前端地图框架，降低项目的开发难度和时间成本。
 
-1.���ӻ��򵼣�ʵ���ޱ��뿪����ʽ���׿��
 
-2.��ģ��֧�֣������û���ҳ�沼�ֵĲ�ͬ��Ҫ������������չ
+### 三、产品特点
 
-3.�����ĵ�ͼ����Ŀǰ֧��iServer��Cloud Layer��WMS��Google��ArcGIS���ٶȡ����ͼ�ȵ�ͼ����
+1.可视化向导，无编码的开发方式，简单易用
 
-4.���׿�������������ҳ������Ӧ����������ĵ�ͼҳ��
+2.多模板支持，满足用户对页面布局的不同需要，并可扩展
 
-5.��������̬ҳ��
+3.多样的地图服务，目前支持iServer、SuperMap云地图、WMS、Google、ArcGIS、百度、天地图等地图服务
 
-6.����չ��
+4.页面自适应，跨浏览器，兼容性强
 
-7.��Ʒ��Դ�������Git����
+5.轻量级
 
-### �ġ���װָ��
+6.可扩展性
 
-����SuperMap JavaScript Bev
-��ѹ�� zip ����������SuperMapjsBevĿǰ�ṩ���ַ�����ʽ��Tomcat �� IIS���ɹ��û�ѡ��
-������·��ʷ�����վ��viewer.html
-���ݿ��ӻ������������ͼҳ��Ĵ
+7.产品开源，存放于Git库中
 
-### �塢ʹ��˵��
 
-**ģ�����ý���**
+### 四、安装指南
 
-Ŀǰ�ṩһ�ֻ���ģ�岼�֣��Ժ�����Ӹ���Ĳ��ֿ�ܹ��û�ѡ��
+1.下载SuperMap JavaScript Bev。
 
-**��ͼ�������ý���**
+2.解压缩 zip 包并拷贝到发布目录，目前提供三种发布方式（Tomcat，IIS和PHP+Apache）可供用户选择。
 
-![original_7r6x_46b5000199a0125c](http://fmn.rrimg.com/fmn063/20130107/0920/original_7r6x_46b5000199a0125c.jpg)
+3.浏览器下访问发布jsbev目录下的viewer.html。
 
-�����ǵ�ͼ���ý��棬�������õ�ͼҳ��ͱ�������ơ�ҳ��Ƥ������ʼ���ĵ�ľ�γ���Լ��㼶������ǵ�ͼ��������ӣ�ѡ�񷢲���������ͣ���ͼ���ƣ������Ҫ������Ҫ���ӷ��������url���ӣ����ѡ������Ҫ�ĵ�ͼ�ؼ��͹�����塣
+4.根据可视化向导完成整个地图页面的搭建。
 
-**ϵͳ��������**
 
-Ŀǰ�ṩ Tomcat �� IIS ���ַ�����ʽ�����û�ѡ��
+### 五、使用说明
 
-**���ɵ�ͼ**
+**模板配置界面**
 
-��������ɵ�ͼ�������������
+目前提供两种基本模板布局，以后会添加更多的布局模板供用户选择。
 
-### ����Ч��չʾ
+![original_CbDk_163500019a01118f](http://fmn.rrimg.com/fmn062/20130312/1005/large_xPJP_7a6800001074118c.jpg)
+
+**地图属性配置界面**
+
+![original_7r6x_46b5000199a0125c](http://fmn.rrfmn.com/fmn058/20130312/1010/large_qxoq_75580000109a1190.jpg)
+
+如上是地图配置界面，首先设置地图页面和标题的名称、页面皮肤、初始中心点的经纬度以及层级；其次是地图服务的添加，选择发布服务的类型，名称，如果需要，还需要添加发布服务的url链接；最后选择你需要的地图控件和功能面板。
+
+**系统属性配置**
+
+目前提供 Tomcat，IIS和PHP+Apache三种发布形式，供用户选择
+
+![original_7r6x_46b5000199a0125c](http://fmn.rrimg.com/fmn060/20130312/1010/original_oQN1_473800001078125c.jpg)
+
+**生成地图**
+
+点击“生成地图”完成整个操作
+
+### 六、效果展示
+
 ![original_fxdC_43d90001996e125d](http://fmn.rrimg.com/fmn060/20130107/0920/original_fxdC_43d90001996e125d.jpg)
 
-��ͼ��ͨ��SuperMap JavaScript Bev �������ɵ���ҳЧ��ͼ���߱�����Ļ������ܡ������ҳ��Ϊ��̬ҳ�棬�ɹ������߸����Լ���ͬ����Ҫ�����޸ĺ����ӡ�
+上图是通过SuperMap JavaScript Bev 配置生成的网页效果图，具备量算的基本功能。另外该页面为静态页面，可供开发者根据自己不同的需要进行修改和增加。
